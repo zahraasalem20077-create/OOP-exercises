@@ -32,8 +32,10 @@ int main()
     cin>>bnum;
     cout<< "Enter exponent number \n";
     cin>>exnum;
+    cout<<"By my function\n";
     cout<<pow(bnum,exnum)<<endl;
-
+    cout<<"By standard function \n";
+    cout<<pow(bnum,(double)exnum)<<endl;
 
 
     return 0;
